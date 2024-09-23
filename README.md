@@ -85,6 +85,15 @@ Help refine prompts for better resume customization. [Learn more.](how_to_contri
 
 ### Software Engineers
 
+Quickstart with Make
+
+A [Makefile](./Makefile) exists in this project to help facilitate developers in setting up for development. This file presumes that you are using a unix-like OS that has 'make' installed.
+
+``` bash
+make dev  # Creates the local virtual environment and installs the package in development mode from local source code
+make unittest  # This command ensures the virtual environment, activates it and then runs the unit tests.
+```
+
 Submit pull requests to improve functionality or fix bugs. [Learn more.](https://docs.github.com/en/get-started/exploring-projects-on-github/contributing-to-a-project)
 
 ### Other Contributions
